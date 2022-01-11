@@ -12,4 +12,4 @@ const imgHeight = 170;
 // size of img
 const ground = document.querySelector('.ground');
 ground.style.width = imgWidth + 'px';
-ground.style.width = imgHeight + 'px';
+ground.style.height = imgHeight + 'px';
