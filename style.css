@@ -17,7 +17,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background: #112647;
+    background: #000;
     -webkit-perspective: 1000px;
     perspective: 1000px;
     -webkit-transform-style: preserve-3d;
@@ -25,6 +25,7 @@ body {
 }
 .drag,
 .spin {
+    inset-block-start: 70px;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -75,7 +76,7 @@ body {
     inline-size: 900px;
     block-size: 900px;
     position: absolute;
-    inset-block-start: 100%;
+    inset-block-start: 145%;
     inset-inline-start: 50%;
     transform: translate(-50%, -50%) rotateX(90deg);
     -webkit-transform: translate(-50%, -50%) rotateX(90deg);
